@@ -1,0 +1,39 @@
+.bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 250px;
+
+    .tag {
+        opacity: 0;
+        pointer-events: none;
+
+        background-color: var(--neutral-100);
+        color: var(--neutral-300);
+        padding: 8px;
+        margin: 8px 0;
+
+        &.show {
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
+
+    .bar-container {
+        width: 64px;
+        border-radius: 6px;
+        background-color: var(--red-color);
+
+        &.cyan {
+            background-color: var(--cyan-color);
+        }
+
+        cursor: pointer;
+    }
+
+    .day-name {
+        color: var(--neutral-100);
+        font-size: var(--font-body-copy);
+    }
+}

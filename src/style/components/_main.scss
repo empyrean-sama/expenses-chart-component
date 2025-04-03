@@ -13,6 +13,8 @@ main {
 
     .bar-graph {
         min-height: 250px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .horizontal-rule {

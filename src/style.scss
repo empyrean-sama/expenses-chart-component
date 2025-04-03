@@ -3,6 +3,7 @@
 
 @use './style/components/header' as *;
 @use './style/components/main' as *;
+@use './style/components/bar' as *;
 
 body {
     background-color: var(--neutral-300);
