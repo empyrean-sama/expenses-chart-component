@@ -1,0 +1,52 @@
+main {
+    background-color: var(--neutral-400);
+    max-width: var(--max-width);
+    margin: auto;
+    margin-top: var(--spacer);
+    padding: var(--spacer);
+    border-radius: var(--border-radius);
+
+    .spending-last-seven-days {
+        color: var(--neutral-100);
+        font-size: var(--font-almost-large);
+    }
+
+    .bar-graph {
+        min-height: 250px;
+    }
+
+    .horizontal-rule {
+        width: 100%;
+        border: 1px solid var(--neutral-200);
+        margin: var(--spacer) 0;
+    }
+
+    .total-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        .total-this-month-box {
+            .total-this-month {
+                color: var(--neutral-200);
+                font-size: var(--font-body-copy);
+            }
+            .total-this-month-amount {
+                color: var(--neutral-100);
+                font-size: var(--font-larger);
+            }
+        }
+
+        .from-last-month-box {
+            .from-last-month-amount {
+                color: var(--neutral-100);
+                font-size: var(--font-body-copy);
+            }
+
+            .from-last-month {
+                color: var(--neutral-200);
+                font-size: var(--font-body-copy);
+            }
+        }
+    }
+}

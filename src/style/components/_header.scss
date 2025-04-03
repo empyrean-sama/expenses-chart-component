@@ -1,0 +1,53 @@
+header {
+    max-width: var(--max-width);
+    padding: var(--spacer);
+    margin: auto;
+    margin-top: var(--spacer);
+    background-color: var(--red-color);
+    border-radius: var(--border-radius);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    
+    .balance-section {
+        display: flex;
+        flex-direction: column;
+
+        .my-balance {
+            font-size: var(--font-body-copy);
+            font-weight: 400;
+            color: var(--neutral-300);
+        }
+        .balance-amount {
+            font-size: var(--font-large);
+            font-weight: 600;
+            color: var(--neutral-400);
+        }
+    }
+
+    .icon-section {
+        .white-outline {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            border: 2px solid var(--neutral-400);
+
+            right: calc(var(--spacer) + 20px);
+            top: calc(50% - 20px);
+        }
+        .black-shadow {
+            position: absolute;
+            background-color: var(--neutral-100);
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+
+            right: var(--spacer);
+            top: calc(50% - 20px);
+        }
+    }
+}

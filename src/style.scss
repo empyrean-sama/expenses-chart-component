@@ -1,1 +1,10 @@
 @use './style/reset' as *;
+@use './style/variables' as *;
+
+@use './style/components/header' as *;
+@use './style/components/main' as *;
+
+body {
+    background-color: var(--neutral-300);
+    margin: var(--spacer);
+}

@@ -10,12 +10,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=League+Spartan:wght@100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-
+    
     <link rel="shortcut icon" href="./image/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.scss">
     <script src="./main.ts" defer></script>
 </head>
 <body>
-    <h1>hello world</h1>
+    <header>
+        <div class="balance-section">
+            <span class="my-balance">My Balance</span>
+            <span class="balance-amount">$921.48</span>
+        </div>
+        <div class="icon-section">
+            <div class="black-shadow"></div>
+            <div class="white-outline"></div>
+        </div>
+    </header>
+    <main class="spending-section">
+        <h1 class="spending-last-seven-days">Spending - Last 7 Days</h1>
+        <div class="bar-graph"></div>
+        <div class="horizontal-rule"></div>
+        <section class="total-section">
+            <div class="total-this-month-box">
+                <h2 class="total-this-month">Total this month</h2>
+                <h3 class="total-this-month-amount">$478.33</h3>
+            </div>
+            <div class="from-last-month-box">
+                <h3 class="from-last-month-amount">+2.4%</h3>
+                <h2 class="from-last-month">From last month</h2>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
